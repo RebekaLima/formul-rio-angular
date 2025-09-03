@@ -1,6 +1,26 @@
-<h1>{{nome}}</h1>
-<h1>{{cidade}}</h1>
 <form>
-<input type="text" [(ngModel)]="nome" placeholder="Nome">
-<input type="text" [(ngModel)]="cidade" placeholder="Idade">
+
+<input type="text" placeholder="Nome" class="form-control">
+<input type="number" placeholder="Número" class="form-control">
+<input type="text" placeholder="Cidade" class="form-control">
 </form>
+
+<input type="button" value="Cadastrar" class="btn btn-success">
+<input type="button" value="Alterar" class="btn btn-warning">
+<input type="button" value="Remover" class="btn btn-danger">
+<input type="button" value="Cancelar" class="btn btn-secondary">
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<!-- <input type="text" [(ngModel)]="nome" placeholder="Nome" class="form-control"> -->

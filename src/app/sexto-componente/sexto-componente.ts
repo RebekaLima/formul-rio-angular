@@ -10,8 +10,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class SextoComponente {
 
-  nome: string='';
-  cidade: string='';
+  nome: string;
+  cidade: string;
+  idade:number=null;
 
 
 }
